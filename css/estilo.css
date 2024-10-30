@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header h1 {
+    font-weight: 200;
+    padding-top: 13px;
+}
+
+header h1 a {
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../imagens/logo.png) no-repeat;
+}
+
+ 
+header#menu-superior {
+    width: 100%;
+    height: 200px;
+    background: url(../imagens/fundo.png);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+header#menu-superior ul {
+    padding-top: 15px;
+}
+
+main header ul  li {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 4px;
+    font-size: 0.7em;
+}
+
+main > header > ul > li > a {
+    text-decoration: none;
+    padding: 2px;
+    color: #af670a;
+}
+
+main header ul  li a:hover {
+    color: #227115;
+    border-radius: 5px;
+    transition-duration: .3s;
+    text-decoration: underline;
+    background-color: white;
+}
+
+section.primeira-secao {
+    width: 950px;
+    display: flex;
+    position: absolute;
+    gap: 18px;
+    top: 120px;
+    left: 130px;
+}
+
+.imagem {
+    width: 100%;
+}
+
+section.segunda-secao {
+    display: flex;
+    width: 1078px;
+    height: 350px;
+    position: absolute;
+    top: 455px;
+    left: 130px;
+}
+
+.segunda-secao #informacoes {
+    width: 340px;
+    height: 500px;
+    margin-left: 25px;
+}
+ 
+.segunda-secao #informacoes h4 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: #227115;
+    padding: 5px 0px 10px 0px;
+}
+
+article#video #video1 {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+article#video li {
+    font-size: 0.8em;
+    color: #af670a;
+    margin-left: 40px;
+    margin-bottom: .2em;
+    list-style-type: disc;
+}
+
+article#video li a {
+    color: #af670a;
+    text-decoration: none;
+}
+
+.segunda-secao #mapa {
+    width: 320px;
+    height: 500px;
+    margin-left: 24px;
+}
+
+.segunda-secao #gps h4 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: #227115;
+    padding: 5px 0px 10px 0px;
+}
+
+article#gps #museu {
+    margin-bottom: 20px;
+}
+
+
+article#gps p {
+    font-size: 0.8em;
+    margin-bottom: 8px;
+}
+
+.segunda-secao #gps a {
+    font-size: 0.8em;
+    color: #af670a;
+    text-decoration: none;
+}
+
+.segunda-secao #visitante {
+    width: 350px;
+    height: 135px;
+    margin-left: 99px;
+    position: absolute;
+    top: 0;
+    left: 628px;
+    background-color: #cdc8b1;
+
+}
+
+.segunda-secao form {
+    margin-top: -5px;
+    margin-bottom: 20px;
+    padding: 8px;
+    padding: 10px 27px;
+}
+
+.segunda-secao #visitante h4 {
+    color: #af670a;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin: 25px 20px 0px 26px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+input {
+    background-color: #fff;
+    text-align: center;
+    width: 85px;
+    height: 20px;
+    margin-bottom: 2px;
+    font-size: .9em;
+}
+
+
+input.campo {
+    border: 1px solid #ada484;
+}
+input.botao {
+    margin-top: 10px;
+    background-color: #9b9271;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: none;
+}
+
+#visita {
+    margin-top: -20px;
+    background-color: #e7e6de;
+}
+ 
+#visita h4 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+ #foto1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly; 
+ }
+
+ #foto2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+ }
+
+ div#foto1 a {
+    display: block;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    padding: 15px;
+ }
+
+ div#foto2 a {
+    display: block;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    padding: 15px;
+ }
+
+ footer#fundo {
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 485px;
+ }
+
+ #fundo #imagem {
+    margin-bottom: 20px;
+ }
+
+ footer#fundo #menu {
+    margin-bottom: 10px;
+    display: inline-block;
+ }
+
+ 
+ footer#fundo #menu a{
+    color: #af670a;
+    font-size: .8em;
+    padding-left: 15px;
+    text-align: center;
+    text-decoration: none;
+ }
+
+ footer#fundo p {
+    font-size: .8em;
+    margin-bottom: 25px;
+ }
+
+ #rodape {
+    color: #af670a;
+    font-size: .8em;
+ }
